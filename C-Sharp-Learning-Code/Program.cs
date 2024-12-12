@@ -3,6 +3,7 @@ using C_Sharp_Learning_Code._03_Static_And_Instance_Members_Of_Class;
 using C_Sharp_Learning_Code._04_Class_and_Objects;
 using C_Sharp_Learning_Code._05_Constructor;
 using C_Sharp_Learning_Code._06_Value_Type_And_Reference_Type;
+using C_Sharp_Learning_Code._07_VAR_And_Dynamic_Keywords;
 using C_Sharp_Learning_Code.Data_Type;
 public class Program
 {
@@ -23,8 +24,13 @@ public class Program
         //ConstructorFile constructorFile_Function = new ConstructorFile();
         //constructorFile_Function.ConstructorFile_Function();
 
-        Value_Type_And_Reference_Type value_Type_And_Reference_Type = new Value_Type_And_Reference_Type();
-        value_Type_And_Reference_Type.Value_Type_And_Reference_Type_Function();
+        //Value_Type_And_Reference_Type value_Type_And_Reference_Type = new Value_Type_And_Reference_Type();
+        //value_Type_And_Reference_Type.Value_Type_And_Reference_Type_Function();
+
+        VAR_And_Dynamic_Keywords var_And_Dynamic_Keywords = new VAR_And_Dynamic_Keywords();
+        var_And_Dynamic_Keywords.VAR_And_Dynamic_Keywords_Function();
+
+
 
 
 
