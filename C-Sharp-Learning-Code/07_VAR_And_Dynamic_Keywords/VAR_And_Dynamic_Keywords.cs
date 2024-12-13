@@ -25,6 +25,9 @@ namespace C_Sharp_Learning_Code._07_VAR_And_Dynamic_Keywords
             var b = 15;
             Console.WriteLine(b);
             Console.WriteLine(b.GetType().Name);
+
+            Console.WriteLine(a);
+            Console.WriteLine(a.GetType().Name);
         }
 
         //// not possible to return var and pass value as var
@@ -45,6 +48,9 @@ namespace C_Sharp_Learning_Code._07_VAR_And_Dynamic_Keywords
             Console.WriteLine(b);
             Console.WriteLine(b.GetType().Name);
 
+            a = 66;
+            Console.WriteLine(a);
+            Console.WriteLine(a.GetType().Name);
 
 
 
