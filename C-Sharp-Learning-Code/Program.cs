@@ -6,6 +6,7 @@ using C_Sharp_Learning_Code._06_Value_Type_And_Reference_Type;
 using C_Sharp_Learning_Code._07_VAR_And_Dynamic_Keywords;
 using C_Sharp_Learning_Code._08_Pass_By_Value_And_Pass_By_Reference;
 using C_Sharp_Learning_Code._09_Inheritance;
+using C_Sharp_Learning_Code._10_Abstraction;
 using C_Sharp_Learning_Code.Data_Type;
 public class Program
 {
@@ -35,8 +36,12 @@ public class Program
         //Pass_By_Value_And_Pass_By_Reference pass_By_Value_And_Pass_By_Reference = new Pass_By_Value_And_Pass_By_Reference();
         //pass_By_Value_And_Pass_By_Reference.Pass_By_Value_And_Pass_By_Reference_Function();
 
-        Emp_Main_Class emp_Main_Class = new Emp_Main_Class();
-        emp_Main_Class.Emp_Main_Class_Function();
+        //Emp_Main_Class emp_Main_Class = new Emp_Main_Class();
+        //emp_Main_Class.Emp_Main_Class_Function();
+
+        Abstraction_Class abstraction_Class = new Abstraction_Class();
+        abstraction_Class.Abstraction_Class_Method();
+
 
 
 
